@@ -42,7 +42,8 @@ To use the application, run the power_charts.py script using Python from the com
 ``` 
 python power_charts.py
 ```
-The application will display a menu where you can choose the chart type you want to create, select the data source, and customize the chart settings as needed.However I have used jupyter here to run a dummy data with the panda library. Without connecting any dataset from external. You can check my code and notice I have plotted the data already in my code.
+## Note & About the given Figures
+The application will display a menu where you can choose the chart type you want to create, select the data source, and customize the chart settings as needed.However I have used jupyter here to run a dummy data with the panda library. Without connecting any dataset from external. You can check my code and notice I have plotted the data already in my code. I have also attached my python scripts to the repository. However, for Uemployment Vs Stock Price the code will be same as the DAU Share's one but there's a slight differnce in the second one. The 'align' & 'width' parameters are not a valid argument for the scatter plot function in matplotlib.
 
 ## Contributing
 
